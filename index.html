@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de bordas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Selector de Bordas</h1>
+
+  <header>
+    <div class="controls"> 
+      
+        <h2>Todos os cantos</h2>  
+        <input type="range" value="10" min="0" max="200" class="all-corners"> 
+         <h2>Canto superior esquerdo</h2>
+         <input type="range" value="10" min="0" max="200" class="top-left">
+         <h2>Canto superior direito</h2>
+         <input type="range" value="10" min="0" max="200" class="top-right">
+         <h2>Canto inferior esquerdo</h2>
+         <input type="range" value="10" min="0" max="200" class="bottom-left">
+         <h2>Canto inferior direito</h2>
+         <input type="range" value="10" min="0" max="200" class="bottom-right"> 
+        
+
+    </div>
+    <div class="content">
+        <div class="block"></div>
+        <textarea class="out">border-radius: 10px 10px 10px 10px</textarea>
+
+    </div>
+
+  </header>
+<script src="script.js"></script>
+</body>
+</html>
